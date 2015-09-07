@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610A6EA11B871C25008C85E3 /* Hello.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 610A6EA01B871C25008C85E3 /* Hello.m4a */; };
 		612541511B54EBBE00DD9F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612541501B54EBBE00DD9F54 /* AppDelegate.swift */; };
 		612541541B54EBBE00DD9F54 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 612541521B54EBBE00DD9F54 /* SoundBoard.xcdatamodeld */; };
-		612541561B54EBBE00DD9F54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612541551B54EBBE00DD9F54 /* ViewController.swift */; };
+		612541561B54EBBE00DD9F54 /* SoundListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612541551B54EBBE00DD9F54 /* SoundListViewController.swift */; };
 		612541591B54EBBE00DD9F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612541571B54EBBE00DD9F54 /* Main.storyboard */; };
 		6125415B1B54EBBE00DD9F54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6125415A1B54EBBE00DD9F54 /* Images.xcassets */; };
 		6125415E1B54EBBE00DD9F54 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6125415C1B54EBBE00DD9F54 /* LaunchScreen.xib */; };
 		6125416A1B54EBBF00DD9F54 /* SoundBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612541691B54EBBF00DD9F54 /* SoundBoardTests.swift */; };
+		61A38CD31B8774F700909179 /* NewSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A38CD21B8774F700909179 /* NewSoundViewController.swift */; };
+		61A38CD51B880ADA00909179 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A38CD41B880ADA00909179 /* Sound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		610A6EA01B871C25008C85E3 /* Hello.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Hello.m4a; path = ../../../../Desktop/Hello.m4a; sourceTree = "<group>"; };
 		6125414B1B54EBBE00DD9F54 /* SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6125414F1B54EBBE00DD9F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		612541501B54EBBE00DD9F54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		612541531B54EBBE00DD9F54 /* SoundBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoundBoard.xcdatamodel; sourceTree = "<group>"; };
-		612541551B54EBBE00DD9F54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		612541551B54EBBE00DD9F54 /* SoundListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundListViewController.swift; sourceTree = "<group>"; };
 		612541581B54EBBE00DD9F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6125415A1B54EBBE00DD9F54 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6125415D1B54EBBE00DD9F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		612541631B54EBBF00DD9F54 /* SoundBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		612541681B54EBBF00DD9F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		612541691B54EBBF00DD9F54 /* SoundBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBoardTests.swift; sourceTree = "<group>"; };
+		61A38CD21B8774F700909179 /* NewSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSoundViewController.swift; sourceTree = "<group>"; };
+		61A38CD41B880ADA00909179 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +85,11 @@
 		6125414D1B54EBBE00DD9F54 /* SoundBoard */ = {
 			isa = PBXGroup;
 			children = (
+				610A6EA01B871C25008C85E3 /* Hello.m4a */,
 				612541501B54EBBE00DD9F54 /* AppDelegate.swift */,
-				612541551B54EBBE00DD9F54 /* ViewController.swift */,
+				61A38CD41B880ADA00909179 /* Sound.swift */,
+				61A38CD21B8774F700909179 /* NewSoundViewController.swift */,
+				612541551B54EBBE00DD9F54 /* SoundListViewController.swift */,
 				612541571B54EBBE00DD9F54 /* Main.storyboard */,
 				6125415A1B54EBBE00DD9F54 /* Images.xcassets */,
 				6125415C1B54EBBE00DD9F54 /* LaunchScreen.xib */,
@@ -196,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				612541591B54EBBE00DD9F54 /* Main.storyboard in Resources */,
+				610A6EA11B871C25008C85E3 /* Hello.m4a in Resources */,
 				6125415E1B54EBBE00DD9F54 /* LaunchScreen.xib in Resources */,
 				6125415B1B54EBBE00DD9F54 /* Images.xcassets in Resources */,
 			);
@@ -215,9 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				612541561B54EBBE00DD9F54 /* ViewController.swift in Sources */,
+				61A38CD51B880ADA00909179 /* Sound.swift in Sources */,
+				612541561B54EBBE00DD9F54 /* SoundListViewController.swift in Sources */,
 				612541541B54EBBE00DD9F54 /* SoundBoard.xcdatamodeld in Sources */,
 				612541511B54EBBE00DD9F54 /* AppDelegate.swift in Sources */,
+				61A38CD31B8774F700909179 /* NewSoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +425,7 @@
 				6125416F1B54EBBF00DD9F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		612541701B54EBBF00DD9F54 /* Build configuration list for PBXNativeTarget "SoundBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +434,7 @@
 				612541721B54EBBF00DD9F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
